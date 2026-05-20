@@ -95,14 +95,3 @@ Para padronização deste repositório, adotam-se as seguintes diretrizes de int
 Os sete princípios do teste de software formam uma base conceitual essencial para qualquer operação de qualidade madura. Eles ajudam times a calibrar expectativas, priorizar esforço, interpretar resultados com responsabilidade e estruturar práticas de teste mais racionais, sustentáveis e alinhadas ao negócio.
 
 Quando internalizados pela organização, esses princípios deixam de ser apenas conteúdo introdutório e passam a influenciar decisões reais sobre cobertura, automação, risco, aceitação e governança da qualidade.
-
----
-
-## Referências
-
-- ISTQB. *Certified Tester Foundation Level Syllabus v4.0.1*.
-- ISTQB. *Certified Tester Foundation Level (CTFL) v4.0 Overview*.
-- ASTQB. *ISTQB Foundation Level – Seven Testing Principles*.
-- MYERS, Glenford J.; SANDLER, Corey; BADGETT, Tom. *The Art of Software Testing*. 3. ed. Wiley, 2011.
-- PRESSMAN, Roger S. *Engenharia de Software: Uma Abordagem Profissional*. 8. ed. McGraw-Hill, 2016.
-- KANER, Cem; BACH, James; PETTICHORD, Bret. *Lessons Learned in Software Testing*. Wiley, 2001.
