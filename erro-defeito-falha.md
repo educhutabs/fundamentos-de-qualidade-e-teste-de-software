@@ -165,12 +165,3 @@ Para fins de padronização terminológica neste repositório, adotam-se as segu
 A distinção entre erro, defeito e falha não é apenas terminológica. Ela sustenta análises mais precisas, registros mais úteis, investigações mais maduras e ações preventivas mais eficazes dentro da engenharia de software.
 
 Quando o time incorpora esses conceitos ao vocabulário e ao processo, a qualidade deixa de ser apenas reação a incidentes e passa a funcionar como mecanismo estruturado de aprendizado e redução de risco.
-
-## Referências
-
-- ASTQB. *ISTQB Foundation Level – Seven Testing Principles*. 
-- ISTQB. *Certified Tester Foundation Level Syllabus v4.0.1*.
-- ISTQB. *Certified Tester Foundation Level (CTFL) v4.0 Overview*. 
-- MYERS, Glenford J.; SANDLER, Corey; BADGETT, Tom. *The Art of Software Testing*. 3. ed. Hoboken: Wiley, 2011.
-- PRESSMAN, Roger S.; MAXIM, Bruce R. *Software Engineering: A Practitioner’s Approach*. 9. ed. New York: McGraw-Hill, 2019.
-- KANER, Cem; BACH, James; PETTICHORD, Bret. *Lessons Learned in Software Testing*. New York: Wiley, 2001.
