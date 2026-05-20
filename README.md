@@ -66,8 +66,3 @@ Contribuições são bem-vindas, especialmente em quatro frentes:
 - melhoria de clareza editorial;
 - expansão temática do repositório;
 - atualização de referências técnicas e normativas.
-
-Ao propor alterações, o ideal é manter o padrão de escrita já estabelecido, com foco em precisão, consistência e aplicabilidade prática para times de engenharia.
-- PRESSMAN, Roger S.; MAXIM, Bruce R. *Software Engineering: A Practitioner’s Approach*. 9. ed. New York: McGraw-Hill, 2019.
-- HUMBLE, Jez; FARLEY, David. *Continuous Delivery*. Boston: Addison-Wesley, 2010.
-- KANER, Cem; BACH, James; PETTICHORD, Bret. *Lessons Learned in Software Testing*. New York: Wiley, 2001.
