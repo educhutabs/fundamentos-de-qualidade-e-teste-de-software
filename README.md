@@ -42,12 +42,12 @@ Descreve os níveis de teste e seu papel dentro da estratégia de qualidade. O m
 
 ## Sequência recomendada
 
-Embora os documentos possam ser lidos de forma independente, a recomendação é seguir uma progressão lógica de aprendizagem:
+Embora os documentos sejam independentes, a sequência abaixo oferece uma progressão de aprendizagem mais consistente:
 
-**Fundamentos de Teste de Software**
-→ **Erro, Defeito e Falha**
-→ **Os 7 Princípios do Teste de Software**
-→ **Níveis de Teste de Software**
+1. `Fundamentos de Teste de Software`
+2. `Erro, Defeito e Falha`
+3. `Os 7 Princípios do Teste de Software`
+4. `Níveis de Teste de Software`
 
 Essa sequência ajuda a consolidar primeiro a base conceitual, depois a precisão terminológica, em seguida os princípios que orientam a prática e, por fim, a organização estrutural das atividades de teste.
 
