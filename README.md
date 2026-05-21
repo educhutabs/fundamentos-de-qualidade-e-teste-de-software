@@ -38,7 +38,7 @@ Descreve os níveis de teste e seu papel dentro da estratégia de qualidade. O m
 
 ---
 
-## Sequência recomendada
+## Ordem de leitura recomendada
 
 Embora os documentos sejam independentes, a sequência abaixo oferece uma progressão de aprendizagem mais consistente:
 
