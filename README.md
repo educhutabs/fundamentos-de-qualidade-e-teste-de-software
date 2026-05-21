@@ -1,4 +1,4 @@
-# Fundamentos de Qualidade e Teste de Software
+# Fundamentos de Teste de Software
 
 Este repositório reúne documentação técnica introdutória sobre os fundamentos de qualidade e teste de software. O conteúdo foi estruturado para servir como base conceitual na construção e evolução de software com foco em qualidade.
 
