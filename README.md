@@ -16,7 +16,7 @@ O repositório tem como objetivo documentar, de forma acessível e tecnicamente 
 
 ### 1. Fundamentos de Teste de Software
 
-> `fundamentos-de-qualidade-e-teste-de-software.md`
+> `fundamentos-de-teste-de-software.md`
 
 Documento de entrada do repositório. Apresenta o conceito de software, a definição de teste de software, os objetivos do teste e sua relevância para o negócio, incluindo a relação entre qualidade, risco e tomada de decisão.
 
