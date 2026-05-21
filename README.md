@@ -2,13 +2,11 @@
 
 Este repositório reúne documentação técnica introdutória sobre os fundamentos de qualidade e teste de software. O conteúdo foi estruturado para servir como base conceitual na construção e evolução de software com foco em qualidade.
 
-A proposta do material é consolidar uma trilha de aprendizagem progressiva, com linguagem técnica clara, organização consistente e ênfase em conceitos que sustentam a prática de engenharia de qualidade em contextos reais de desenvolvimento.
-
 ---
 
 ## Objetivo do repositório
 
-O repositório tem como objetivo documentar, de forma acessível e tecnicamente consistente, os principais conceitos introdutórios de teste de software. Em vez de tratar qualidade como atividade isolada ao final do ciclo de desenvolvimento, o conteúdo adota a perspectiva de que teste é uma disciplina de engenharia voltada à redução de risco, geração de evidências e apoio à tomada de decisão.
+O objetivo do repositório é consolidar uma trilha de aprendizagem progressiva, com linguagem técnica clara, organização consistente e ênfase em conceitos que sustentam a prática de engenharia de qualidade em contextos reais de desenvolvimento. Em vez de tratar qualidade como atividade isolada ao final do ciclo de desenvolvimento, o conteúdo adota a perspectiva de que teste é uma disciplina de engenharia voltada à redução de risco, geração de evidências e apoio à tomada de decisão.
 
 ---
 
