@@ -1,6 +1,8 @@
 # Níveis de Teste de Software
 
-Este documento apresenta os principais níveis de teste de software e descreve seu propósito, escopo, objetivos e aplicação ao longo do ciclo de desenvolvimento. A compreensão correta desses níveis é essencial para estruturar uma estratégia de qualidade consistente, evitar lacunas de cobertura e reduzir sobreposição desnecessária entre atividades de teste.
+Este documento apresenta os principais níveis de teste de software e descreve seu propósito, escopo, objetivos e aplicação ao longo do ciclo de desenvolvimento. 
+
+A compreensão correta desses níveis é essencial para estruturar uma estratégia de qualidade consistente, evitar lacunas de cobertura e reduzir sobreposição desnecessária entre atividades de teste.
 
 Os níveis de teste organizam o esforço de verificação e validação conforme o objeto testado e a perspectiva adotada sobre o sistema. Em termos práticos, eles permitem responder com clareza o que está sendo testado, em que momento, com qual objetivo, por quem e com base em quais artefatos.
 
@@ -53,7 +55,7 @@ Seu objetivo principal é confirmar que a menor parte verificável do sistema fu
 
 ### Quando aplicar
 
-Esse nível é especialmente eficaz quando implementado junto ao desenvolvimento ou antes dele, como ocorre em práticas como TDD. Quanto mais sólido for o teste de componente, menor tende a ser a propagação de defeitos simples para níveis superiores, nos quais o diagnóstico costuma ser mais caro e demorado [file:35].
+Esse nível é especialmente eficaz quando implementado junto ao desenvolvimento ou antes dele, como ocorre em práticas como TDD. Quanto mais sólido for o teste de componente, menor tende a ser a propagação de defeitos simples para níveis superiores, nos quais o diagnóstico costuma ser mais caro e demorado.
 
 ---
 
