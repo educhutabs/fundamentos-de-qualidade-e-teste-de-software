@@ -8,7 +8,7 @@ Os níveis de teste organizam o esforço de verificação e validação conforme
 
 ---
 
-## Visão geral
+## Introdução
 
 Níveis de teste são agrupamentos de atividades que são planejadas e gerenciadas em conjunto, cada um focado em um escopo específico do produto. À medida que o desenvolvimento avança, o foco do teste se expande: parte-se de elementos menores e isolados, avança-se para integrações, evolui-se para o sistema completo e, por fim, valida-se sua aderência ao uso e às necessidades do negócio.
 
@@ -28,11 +28,12 @@ Essa relação reforça um princípio importante da engenharia de qualidade: qua
 ## Estrutura de níveis
 
 De acordo com o CTFL v4.0, os níveis descritos de forma explícita são:
-- Teste de componente.
-- Teste de integração de componentes.
-- Teste de sistema.
-- Teste de integração de sistemas.
-- Teste de aceitação.
+
+- Teste de componente
+- Teste de integração de componentes
+- Teste de sistema
+- Teste de integração de sistemas
+- Teste de aceitação
 
 No uso cotidiano de times de engenharia, é comum encontrar uma simplificação desses níveis em quatro camadas clássicas: unitário, integração, sistema e aceitação. O arquivo original segue essa linha mais tradicional, o que é aceitável para fins introdutórios, mas em uma documentação de referência convém registrar a distinção mais precisa entre integração de componentes e integração de sistemas.
 
@@ -48,10 +49,10 @@ Seu objetivo principal é confirmar que a menor parte verificável do sistema fu
 
 ### Características
 
-- Costuma ser executado pelo próprio desenvolvedor.
-- É rápido, frequente e altamente automatizável.
-- Utiliza dublês de teste para isolar dependências externas.
-- Favorece feedback imediato sobre alterações no código.
+- Costuma ser executado pelo próprio desenvolvedor
+- É rápido, frequente e altamente automatizável
+- Utiliza dublês de teste para isolar dependências externas
+- Favorece feedback imediato sobre alterações no código
 
 ### Quando aplicar
 
@@ -69,10 +70,10 @@ Em muitos contextos, esse nível é chamado genericamente de teste de integraç�
 
 ### Características
 
-- Detecta defeitos de interface e acoplamento.
-- Avalia contratos, serialização, mapeamento e orquestração entre componentes.
-- Pode ser executado de forma incremental ou por blocos maiores de integração.
-- Exige ambiente mais próximo do real do que o teste de componente.
+- Detecta defeitos de interface e acoplamento
+- Avalia contratos, serialização, mapeamento e orquestração entre componentes
+- Pode ser executado de forma incremental ou por blocos maiores de integração
+- Exige ambiente mais próximo do real do que o teste de componente
 
 ### Exemplo
 
@@ -90,18 +91,18 @@ Esse é o nível em que se avalia se o produto, como solução completa, atende 
 
 ### Características
 
-- O objeto de teste é o sistema completo.
-- A base de teste costuma derivar de requisitos de sistema e regras de negócio.
-- É frequentemente conduzido por QA com maior independência em relação ao desenvolvimento.
-- Pode incluir testes funcionais e não funcionais.
+- O objeto de teste é o sistema completo
+- A base de teste costuma derivar de requisitos de sistema e regras de negócio
+- É frequentemente conduzido por QA com maior independência em relação ao desenvolvimento
+- Pode incluir testes funcionais e não funcionais
 
 ### Tipos frequentes neste nível
 
-- Teste funcional.
-- Teste de desempenho.
-- Teste de segurança.
-- Teste de usabilidade.
-- Teste de compatibilidade.
+- Teste funcional
+- Teste de desempenho
+- Teste de segurança
+- Teste de usabilidade
+- Teste de compatibilidade
 
 ### Leitura prática
 
@@ -115,14 +116,16 @@ Esse nível responde, em grande medida, à pergunta: “o sistema como um todo s
 
 O teste de integração de sistemas verifica a interação entre o sistema sob teste e outros sistemas externos, internos ou de terceiros. Esse nível é explicitamente destacado no CTFL v4.0 e representa uma distinção importante em ambientes corporativos, nos quais integrações com ERPs, gateways, mensageria, plataformas legadas, provedores de autenticação e serviços externos são parte crítica da solução.
 
-Enquanto a integração de componentes observa partes internas do mesmo sistema, a integração de sistemas concentra-se nas fronteiras entre soluções independentes. Nesse contexto, os riscos incluem incompatibilidade de contratos, latência, indisponibilidade, falhas de autenticação, inconsistência transacional e problemas de versionamento.
+Enquanto a integração de componentes observa partes internas do mesmo sistema, a integração de sistemas concentra-se nas fronteiras entre soluções independentes.
+
+Nesse contexto, os riscos incluem incompatibilidade de contratos, latência, indisponibilidade, falhas de autenticação, inconsistência transacional e problemas de versionamento.
 
 ### Características
 
-- Foca nas fronteiras entre sistemas independentes.
-- Avalia protocolos, contratos, formatos, segurança e comportamento de integração.
-- Costuma depender de ambientes compartilhados e maior coordenação entre equipes.
-- É crítico em arquiteturas distribuídas, orientadas a serviços e baseadas em APIs.
+- Foca nas fronteiras entre sistemas independentes
+- Avalia protocolos, contratos, formatos, segurança e comportamento de integração
+- Costuma depender de ambientes compartilhados e maior coordenação entre equipes
+- É crítico em arquiteturas distribuídas, orientadas a serviços e baseadas em APIs
 
 ### Exemplo
 
@@ -140,18 +143,18 @@ Trata-se do nível mais diretamente relacionado à decisão de entrega. Em muito
 
 ### Características
 
-- Envolve cliente, usuário final ou representante do negócio.
-- Foca em fluxos de negócio e cenários de uso representativos.
-- Pode ser manual, automatizado ou híbrido.
-- Avalia prontidão para uso, e não apenas conformidade técnica.
+- Envolve cliente, usuário final ou representante do negócio
+- Foca em fluxos de negócio e cenários de uso representativos
+- Pode ser manual, automatizado ou híbrido
+- Avalia prontidão para uso, e não apenas conformidade técnica
 
 ### Formas frequentes de aceitação
 
-- Teste de aceitação do usuário.
-- Teste alfa.
-- Teste beta.
-- Teste de aceitação contratual.
-- Teste de aceitação regulatória.
+- Teste de aceitação do usuário
+- Teste alfa
+- Teste beta
+- Teste de aceitação contratual
+- Teste de aceitação regulatória
 
 ### Leitura prática
 
@@ -167,50 +170,59 @@ Por essa razão, ele é transversal e pode ser aplicado em qualquer nível: comp
 
 ### Características
 
-- É orientado a mudança.
-- Pode ocorrer em qualquer nível de teste.
-- Tem forte dependência de automação em ambientes de entrega frequente.
-- Exige manutenção contínua da suíte para preservar relevância e eficiência.
+- É orientado a mudança
+- Pode ocorrer em qualquer nível de teste
+- Tem forte dependência de automação em ambientes de entrega frequente
+- Exige manutenção contínua da suíte para preservar relevância e eficiência
 
 ---
 
 ## Critérios de distinção
 
 Para evitar sobreposição entre níveis, recomenda-se diferenciá-los pelos seguintes atributos:
-- Objeto de teste.
-- Objetivo principal.
-- Base de teste utilizada.
-- Tipo de defeitos e falhas esperados.
-- Responsáveis e grau de independência.
-- Ambiente necessário para execução.
 
-Essa separação é importante porque dois testes podem parecer semelhantes à primeira vista, mas pertencerem a níveis distintos em função do escopo real observado. Um mesmo fluxo de pedido, por exemplo, pode ser exercitado como teste de componente, integração de componentes, sistema, integração de sistemas ou aceitação, a depender do objeto avaliado e do propósito do teste.
+- Objeto de teste
+- Objetivo principal
+- Base de teste utilizada
+- Tipo de defeitos e falhas esperados
+- Responsáveis e grau de independência
+- Ambiente necessário para execução
+
+Essa separação é importante porque dois testes podem parecer semelhantes à primeira vista, mas pertencerem a níveis distintos em função do escopo real observado. 
+
+Um mesmo fluxo de pedido, por exemplo, pode ser exercitado como teste de componente, integração de componentes, sistema, integração de sistemas ou aceitação, a depender do objeto avaliado e do propósito do teste.
 
 ---
 
 ## Visão consolidada
 
-- **Teste de componente:** verifica unidades isoladas de código.
-- **Teste de integração de componentes:** verifica interação entre componentes internos.
-- **Teste de sistema:** valida o comportamento do sistema completo.
-- **Teste de integração de sistemas:** valida a interação com sistemas externos ou independentes.
-- **Teste de aceitação:** valida aderência ao negócio e prontidão para uso.
-- **Teste de regressão:** protege qualquer nível contra efeitos colaterais de mudanças.
+- **Teste de componente:** verifica unidades isoladas de código
+- **Teste de integração de componentes:** verifica interação entre componentes internos
+- **Teste de sistema:** valida o comportamento do sistema completo
+- **Teste de integração de sistemas:** valida a interação com sistemas externos ou independentes
+- **Teste de aceitação:** valida aderência ao negócio e prontidão para uso
+- **Teste de regressão:** protege qualquer nível contra efeitos colaterais de mudanças
 
 ---
 
 ## Diretrizes conceituais
 
 Para padronização neste repositório, adotam-se as seguintes diretrizes:
+
 - “Teste unitário” pode ser usado como sinônimo operacional de “teste de componente”.
+  
 - “Teste de integração” deve ser qualificado quando necessário, distinguindo integração de componentes de integração de sistemas.
+  
 - “Teste de regressão” deve ser tratado como prática transversal, e não como nível formal.
+  
 - Estratégia de qualidade deve distribuir responsabilidade entre níveis, evitando concentração excessiva em testes de sistema ou aceitação.
 
 ---
 
-## Encerramento
+## Conclusão
 
 Os níveis de teste não são excludentes e não competem entre si. Em uma estratégia madura, eles se complementam para formar uma malha progressiva de detecção, prevenção e redução de risco ao longo do ciclo de vida do software.
 
-A distribuição do investimento entre esses níveis depende do contexto do produto, da arquitetura, da frequência de mudança, da criticidade do domínio e da maturidade do time. Ainda assim, ignorar sistematicamente qualquer um desses níveis costuma deslocar risco e custo para momentos mais tardios, onde a correção tende a ser mais cara e mais impactante para o negócio.
+A distribuição do investimento entre esses níveis depende do contexto do produto, da arquitetura, da frequência de mudança, da criticidade do domínio e da maturidade do time. 
+
+Ainda assim, ignorar sistematicamente qualquer um desses níveis costuma deslocar risco e custo para momentos mais tardios, onde a correção tende a ser mais cara e mais impactante para o negócio.
