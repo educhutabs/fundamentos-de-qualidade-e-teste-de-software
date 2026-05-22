@@ -8,7 +8,7 @@ Em vez de tratar qualidade como atividade isolada ao final do ciclo de desenvolv
 
 ---
 
-## Visão Geral
+## Visão geral
 
 ### 1. Fundamentos de Teste de Software
 
@@ -36,7 +36,7 @@ Descreve os níveis de teste e seu papel dentro da estratégia de qualidade. O m
 
 ---
 
-## Fluxo de Leitura Sugerido
+## Fluxo de leitura sugerido
 
 Embora os documentos sejam independentes, a sequência abaixo oferece uma progressão de aprendizagem mais consistente:
 
@@ -49,7 +49,7 @@ Essa sequência ajuda a consolidar primeiro a base conceitual, depois a precisã
 
 ---
 
-## Evolução do Conteúdo
+## Evolução do conteúdo
 
 Este repositório foi concebido para expansão incremental. A tendência natural é incorporar novos documentos sobre tipos de teste, técnicas de projeto, automação, análise estática, gestão de defeitos, estratégia de qualidade, métricas e integração de testes em pipelines de entrega contínua.
 
