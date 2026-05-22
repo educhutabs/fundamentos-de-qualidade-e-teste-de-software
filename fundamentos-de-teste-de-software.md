@@ -4,7 +4,7 @@ Este documento apresenta os conceitos fundamentais de software e de teste de sof
 
 ---
 
-## Visão geral
+## Introdução
 
 Software é um ativo lógico criado para atender necessidades específicas de negócio, operação ou experiência do usuário. Como qualquer produto de engenharia, ele está sujeito a falhas de especificação, implementação, integração e operação, o que torna o teste uma prática essencial para controle de risco e suporte à tomada de decisão sobre a entrega.
 
@@ -23,6 +23,7 @@ Sob uma perspectiva prática, o software pode ser organizado em diferentes categ
 É o software responsável por gerenciar recursos computacionais e fornecer a base para execução de outros programas. Nessa categoria estão sistemas operacionais, drivers, utilitários de baixo nível e firmware.
 
 Exemplos:
+
 - Sistemas operacionais, como Linux e Windows.
 - Drivers de dispositivos.
 - Firmware embarcado em equipamentos.
@@ -32,6 +33,7 @@ Exemplos:
 É o software construído para resolver necessidades específicas de usuários ou organizações. Normalmente está mais próximo do domínio de negócio e da experiência final de uso.
 
 Exemplos:
+
 - ERPs.
 - Aplicações web.
 - Plataformas de e-commerce.
@@ -42,6 +44,7 @@ Exemplos:
 É o software integrado a dispositivos físicos, geralmente com restrições de memória, processamento, energia ou tempo de resposta. Em muitos casos, opera em cenários críticos e exige alto grau de confiabilidade.
 
 Exemplos:
+
 - Roteadores.
 - Painéis automotivos.
 - Equipamentos médicos.
@@ -58,6 +61,7 @@ Teste de software é o conjunto de atividades executadas para avaliar um sistema
 Essa definição é importante porque testar não significa apenas executar funcionalidades manualmente para verificar se “parecem funcionar”. Teste é uma disciplina estruturada, com planejamento, projeto de casos de teste, preparação de dados, execução, comparação entre resultados esperados e obtidos, registro de evidências e análise de desvios.
 
 Em linhas gerais, o teste de software contribui para:
+
 - Identificar defeitos antes da entrada em produção.
 - Verificar a aderência aos requisitos funcionais.
 - Avaliar características de qualidade não funcional.
@@ -71,6 +75,7 @@ Em linhas gerais, o teste de software contribui para:
 O objetivo central do teste de software é reduzir o risco de falhas relevantes em produção. Isso significa produzir informações confiáveis sobre o comportamento do sistema para que a organização saiba o que está pronto, o que precisa ser corrigido e quais riscos ainda permanecem antes da liberação.
 
 De forma mais específica, o teste busca:
+
 - Verificar se os requisitos funcionais foram implementados corretamente.
 - Validar se atributos de qualidade, como desempenho, segurança e usabilidade, estão sendo atendidos.
 - Detectar defeitos o mais cedo possível no ciclo de desenvolvimento.
@@ -112,6 +117,7 @@ A avaliação da qualidade de um software não se limita ao funcionamento corret
 A ISO/IEC 25010 organiza a qualidade de produto em características como adequação funcional, eficiência de desempenho, compatibilidade, usabilidade, confiabilidade, segurança, manutenibilidade e portabilidade. Esse modelo é útil para ampliar a visão sobre o que deve ser avaliado ao longo da estratégia de testes.
 
 Na prática, isso significa que uma abordagem madura de teste considera, entre outros pontos:
+
 - O que o sistema faz.
 - Como o sistema se comporta.
 - Em quais condições ele opera bem.
@@ -124,6 +130,7 @@ Na prática, isso significa que uma abordagem madura de teste considera, entre o
 Teste de software é mais efetivo quando distribuído ao longo de todo o ciclo de desenvolvimento. Quanto antes a equipe valida premissas, requisitos e implementações, menor tende a ser o acúmulo de defeitos, retrabalho e risco na fase final de entrega.
 
 Em um fluxo de engenharia moderno, o teste pode aparecer em diferentes momentos:
+
 - Na revisão de requisitos e critérios de aceite.
 - Na validação de componentes e integrações.
 - Na execução de testes funcionais e não funcionais.
@@ -146,7 +153,7 @@ Para fins de alinhamento organizacional, este documento parte das seguintes dire
 
 ---
 
-## Encerramento
+## Conclusão
 
 Testar software é uma prática essencial para proteger o negócio, sustentar a evolução do produto e aumentar a confiança nas mudanças realizadas. Mais do que encontrar defeitos, o teste fornece visibilidade objetiva sobre riscos, aderência a requisitos e nível de qualidade disponível para entrega em um dado contexto.
 
