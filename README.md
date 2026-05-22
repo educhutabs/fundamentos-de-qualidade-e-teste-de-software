@@ -1,16 +1,14 @@
 # Fundamentos de Teste de Software
 
-Este repositório reúne documentação técnica introdutória sobre os fundamentos de qualidade e teste de software. O conteúdo foi estruturado para servir como base conceitual na construção e evolução de software com foco em qualidade.
+Este repositório reúne documentação técnica introdutória sobre os fundamentos de qualidade e teste de software. O conteúdo foi concebido para servir como base conceitual na construção e evolução de software com foco em qualidade.
+
+O objetivo é consolidar uma trilha de aprendizagem progressiva, com linguagem técnica clara, organização consistente e ênfase em conceitos que sustentam a prática de engenharia de qualidade em contextos reais de desenvolvimento. 
+
+Em vez de tratar qualidade como atividade isolada ao final do ciclo de desenvolvimento, o conteúdo adota a perspectiva de que teste é uma disciplina de engenharia voltada à redução de risco, geração de evidências e apoio à tomada de decisão.
 
 ---
 
-## Objetivo do repositório
-
-O objetivo do repositório é consolidar uma trilha de aprendizagem progressiva, com linguagem técnica clara, organização consistente e ênfase em conceitos que sustentam a prática de engenharia de qualidade em contextos reais de desenvolvimento. Em vez de tratar qualidade como atividade isolada ao final do ciclo de desenvolvimento, o conteúdo adota a perspectiva de que teste é uma disciplina de engenharia voltada à redução de risco, geração de evidências e apoio à tomada de decisão.
-
----
-
-## Estrutura do conteúdo
+## Visão Geral
 
 ### 1. Fundamentos de Teste de Software
 
@@ -38,7 +36,7 @@ Descreve os níveis de teste e seu papel dentro da estratégia de qualidade. O m
 
 ---
 
-## Ordem de leitura recomendada
+## Fluxo de Leitura Sugerido
 
 Embora os documentos sejam independentes, a sequência abaixo oferece uma progressão de aprendizagem mais consistente:
 
@@ -51,7 +49,7 @@ Essa sequência ajuda a consolidar primeiro a base conceitual, depois a precisã
 
 ---
 
-## Evolução do repositório
+## Evolução do Conteúdo
 
 Este repositório foi concebido para expansão incremental. A tendência natural é incorporar novos documentos sobre tipos de teste, técnicas de projeto, automação, análise estática, gestão de defeitos, estratégia de qualidade, métricas e integração de testes em pipelines de entrega contínua.
 
@@ -60,6 +58,7 @@ Este repositório foi concebido para expansão incremental. A tendência natural
 ## Contribuições
 
 Contribuições são bem-vindas, especialmente em quatro frentes:
+
 - correção de imprecisões conceituais;
 - melhoria de clareza editorial;
 - expansão temática do repositório;
