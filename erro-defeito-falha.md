@@ -4,7 +4,7 @@ Este documento apresenta a distinção entre erro, defeito e falha no contexto d
 
 ---
 
-## Visão geral
+## Introdução
 
 Em ambientes de desenvolvimento e operação, expressões como “o sistema deu erro”, “foi encontrado um bug” ou “a aplicação falhou” costumam aparecer como equivalentes. Apesar de comuns no uso cotidiano, essas formulações podem gerar ambiguidade quando utilizadas em análise de incidentes, triagem de defeitos, auditorias, investigações de causa raiz e documentação técnica.
 
@@ -13,6 +13,7 @@ Do ponto de vista da engenharia de qualidade, erro, defeito e falha fazem parte 
 **Erro humano -> Defeito no artefato -> Falha no comportamento do sistema**
 
 Essa diferenciação permite identificar com maior precisão:
+
 - A origem do problema.
 - O artefato impactado.
 - A manifestação observável.
@@ -38,7 +39,7 @@ O erro não reside no software em si, mas na atividade humana que levou à intro
 
 ## Defeito
 
-Defeito é a materialização de um erro em algum artefato do ciclo de vida de software. Em outras palavras, trata-se da incorreção incorporada ao produto ou a seus artefatos associados, como código-fonte, documentação, scripts, configurações, dados estruturais ou até casos de teste.
+Defeito é a materialização de um erro em algum artefato do ciclo de vida de software. Em outras palavras, trata-se da imperfeição incorporada ao produto ou a seus artefatos associados, como código-fonte, documentação, scripts, configurações, dados estruturais ou até casos de teste.
 
 O defeito existe independentemente de já ter sido executado ou percebido em produção. Ele pode permanecer latente por longos períodos, especialmente quando o trecho afetado não é exercitado, quando as condições de ativação ainda não ocorreram ou quando não há cobertura de revisão e teste suficiente para evidenciá-lo.
 
@@ -76,6 +77,7 @@ Em termos operacionais, a falha é aquilo que o usuário, o testador, o analista
 ### Condições de ativação
 
 Nem todo defeito se converte imediatamente em falha. Para que a falha aconteça, geralmente é necessário que determinadas condições estejam presentes, como:
+
 - Entrada específica.
 - Estado particular do sistema.
 - Sequência exata de operações.
@@ -91,17 +93,19 @@ Essa relação explica por que um sistema pode conter defeitos sem apresentar fa
 A distinção entre erro, defeito e falha fica mais clara quando observada como uma sequência lógica de causa e efeito:
 
 1. Uma pessoa interpreta ou executa algo de forma incorreta.
-2. Essa ação introduz uma incorreção em um artefato.
+2. Essa ação introduz uma imperfeição em um artefato.
 3. Quando o artefato é executado sob certas condições, o comportamento incorreto se manifesta.
 
 ### Exemplo ilustrativo
 
 Considere a implementação de um desconto comercial:
+
 - O analista interpreta de forma equivocada a regra de negócio, entendendo que o desconto máximo é 20%, quando o correto seria 12%.
 - Essa interpretação incorreta leva o desenvolvedor a implementar a validação com limite de 20%.
 - Em produção, um pedido recebe desconto acima do permitido e o faturamento é processado com valor incorreto.
 
 Nesse cenário:
+
 - A interpretação incorreta é o **erro**.
 - A validação implementada com limite indevido é o **defeito**.
 - O cálculo aceito com valor incorreto em execução é a **falha**.
@@ -119,15 +123,17 @@ Quanto mais cedo a cadeia é interrompida, menor tende a ser o custo de correç�
 ### Análise de causa raiz
 
 Quando uma falha é encontrada, o trabalho técnico não deve se encerrar na correção do sintoma. O caminho mais eficaz é investigar a cadeia inversa:
+
 - Qual falha foi observada.
 - Qual defeito a produziu.
 - Qual erro humano, lacuna processual ou falha de comunicação permitiu sua introdução.
 
-Essa abordagem fortalece práticas de Root Cause Analysis, aprendizado organizacional e prevenção sistêmica.
+Essa abordagem fortalece práticas de análise de causa raiz (RCA), aprendizado organizacional e prevenção sistêmica.
 
 ### Comunicação e rastreabilidade
 
 Em registros de incidentes e defeitos, o uso preciso da terminologia melhora a comunicação entre QA, desenvolvimento, produto, suporte e gestão. Também aumenta a qualidade da rastreabilidade, porque separa claramente:
+
 - O que foi percebido.
 - Onde está o problema.
 - Qual foi a causa provável.
@@ -153,14 +159,14 @@ Essa disciplina reduz ambiguidades, acelera a triagem e favorece correções mai
 Para fins de padronização terminológica neste repositório, adotam-se as seguintes diretrizes:
 
 - **Erro** deve ser tratado como ação humana incorreta.
-- **Defeito** deve ser tratado como a incorreção presente em um artefato.
+- **Defeito** deve ser tratado como a imperfeição presente em um artefato.
 - **Falha** deve ser tratada como a manifestação observável em tempo de execução.
 - O termo **bug** pode ser utilizado em contexto informal, mas em documentação formal recomenda-se preferir “defeito” ou “falha”, conforme o caso.
 - Investigações de qualidade devem buscar a cadeia completa, e não apenas a correção do efeito observado.
 
 ---
 
-## Encerramento
+## Conclusão
 
 A distinção entre erro, defeito e falha não é apenas terminológica. Ela sustenta análises mais precisas, registros mais úteis, investigações mais maduras e ações preventivas mais eficazes dentro da engenharia de software.
 
